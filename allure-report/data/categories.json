@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'like' != 'like'",
+      "children" : [ {
+        "name" : "test_like[软件测试-2]",
+        "uid" : "59ebdeb49ed8b851",
+        "parentUid" : "9c7aabb2303fa0041289b9dc03928ca0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635425884064,
+          "stop" : 1635425931538,
+          "duration" : 47474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'软件测试'", "2" ]
+      } ],
+      "uid" : "9c7aabb2303fa0041289b9dc03928ca0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

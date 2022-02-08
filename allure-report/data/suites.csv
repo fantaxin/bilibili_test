@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Oct 28 20:58:04 CST 2021","Thu Oct 28 20:58:51 CST 2021","47474","","test","Test_bilibili","","","test_like[软件测试-2]",""
+"passed","Thu Oct 28 20:58:51 CST 2021","Thu Oct 28 20:59:21 CST 2021","30129","","test","Test_bilibili","","","test_like[中国地质大学-1]",""
+"passed","Thu Oct 28 20:59:21 CST 2021","Thu Oct 28 20:59:42 CST 2021","20472","","test","Test_bilibili","","","test_like[周杰伦-5]",""

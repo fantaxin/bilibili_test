@@ -1,0 +1,66 @@
+{
+  "uid" : "59ebdeb49ed8b851",
+  "name" : "test_like[软件测试-2]",
+  "fullName" : "test.Test_bilibili#test_like",
+  "historyId" : "9878348d744acbdfe50720b6f8cc3cd7",
+  "time" : {
+    "start" : 1635425884064,
+    "stop" : 1635425931538,
+    "duration" : 47474
+  },
+  "descriptionHtml" : "\n <h1>Test with some complicated html description</h1>\n <table style=\"width:100%\">\n   <tr>\n     <th>Firstname</th>\n     <th>Lastname</th>\n   </tr>\n   <tr align=\"center\">\n     <td>William</td>\n     <td>Smith</td>\n </table>\n ",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'like' != 'like'",
+  "statusTrace" : "self = <test.Test_bilibili object at 0x000001D467D65820>, content = '软件测试'\nnum = 2\n\n    @pytest.mark.parametrize(\"content,num\", [\n        ('软件测试', 2),\n        ('中国地质大学', 1),\n        ('周杰伦', 5)\n    ])\n    def test_like(self, content, num):\n        start = time_now()\n        bp = init()\n        search(bp, content)\n        intovideo(bp, num)\n        a = like(bp)\n        bp.quit()\n        end = time_now()\n>       assert a[0] != a[1]\nE       AssertionError: assert 'like' != 'like'\n\ntest.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_bilibili"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MUB2FSQN"
+  }, {
+    "name" : "thread",
+    "value" : "13640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "'软件测试'"
+  }, {
+    "name" : "num",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "59ebdeb49ed8b851.json",
+  "parameterValues" : [ "'软件测试'", "2" ]
+}

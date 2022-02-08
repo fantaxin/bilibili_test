@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "Test_bilibili",
+      "children" : [ {
+        "name" : "test_like[软件测试-2]",
+        "uid" : "59ebdeb49ed8b851",
+        "parentUid" : "d7f5c536fb433d0cb0c3d16a53bc8f71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635425884064,
+          "stop" : 1635425931538,
+          "duration" : 47474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'软件测试'", "2" ]
+      }, {
+        "name" : "test_like[中国地质大学-1]",
+        "uid" : "719f81936f5cceb2",
+        "parentUid" : "d7f5c536fb433d0cb0c3d16a53bc8f71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635425931623,
+          "stop" : 1635425961752,
+          "duration" : 30129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'中国地质大学'", "1" ]
+      }, {
+        "name" : "test_like[周杰伦-5]",
+        "uid" : "c8a9e09f64497086",
+        "parentUid" : "d7f5c536fb433d0cb0c3d16a53bc8f71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635425961760,
+          "stop" : 1635425982232,
+          "duration" : 20472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'周杰伦'", "5" ]
+      } ],
+      "uid" : "d7f5c536fb433d0cb0c3d16a53bc8f71"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ]
+}

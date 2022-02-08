@@ -1,0 +1,60 @@
+{
+  "uid" : "c8a9e09f64497086",
+  "name" : "test_like[周杰伦-5]",
+  "fullName" : "test.Test_bilibili#test_like",
+  "historyId" : "77238abeafd81ba66b633815f9d4e6ad",
+  "time" : {
+    "start" : 1635425961760,
+    "stop" : 1635425982232,
+    "duration" : 20472
+  },
+  "descriptionHtml" : "\n <h1>Test with some complicated html description</h1>\n <table style=\"width:100%\">\n   <tr>\n     <th>Firstname</th>\n     <th>Lastname</th>\n   </tr>\n   <tr align=\"center\">\n     <td>William</td>\n     <td>Smith</td>\n </table>\n ",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_bilibili"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MUB2FSQN"
+  }, {
+    "name" : "thread",
+    "value" : "13640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "'周杰伦'"
+  }, {
+    "name" : "num",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8a9e09f64497086.json",
+  "parameterValues" : [ "'周杰伦'", "5" ]
+}

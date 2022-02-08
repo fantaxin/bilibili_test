@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-MUB2FSQN",
+    "children" : [ {
+      "name" : "13640-MainThread",
+      "children" : [ {
+        "name" : "test_like[软件测试-2]",
+        "uid" : "59ebdeb49ed8b851",
+        "parentUid" : "c139564bad88fce0e54956a20caddb06",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635425884064,
+          "stop" : 1635425931538,
+          "duration" : 47474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'软件测试'", "2" ]
+      }, {
+        "name" : "test_like[周杰伦-5]",
+        "uid" : "c8a9e09f64497086",
+        "parentUid" : "c139564bad88fce0e54956a20caddb06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635425961760,
+          "stop" : 1635425982232,
+          "duration" : 20472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'周杰伦'", "5" ]
+      }, {
+        "name" : "test_like[中国地质大学-1]",
+        "uid" : "719f81936f5cceb2",
+        "parentUid" : "c139564bad88fce0e54956a20caddb06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635425931623,
+          "stop" : 1635425961752,
+          "duration" : 30129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'中国地质大学'", "1" ]
+      } ],
+      "uid" : "c139564bad88fce0e54956a20caddb06"
+    } ],
+    "uid" : "22d9504109b1444976acaa3607d5cc8a"
+  } ]
+}

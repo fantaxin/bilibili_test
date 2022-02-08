@@ -1,0 +1,31 @@
+[ {
+  "uid" : "59ebdeb49ed8b851",
+  "name" : "test_like[软件测试-2]",
+  "time" : {
+    "start" : 1635425884064,
+    "stop" : 1635425931538,
+    "duration" : 47474
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "719f81936f5cceb2",
+  "name" : "test_like[中国地质大学-1]",
+  "time" : {
+    "start" : 1635425931623,
+    "stop" : 1635425961752,
+    "duration" : 30129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8a9e09f64497086",
+  "name" : "test_like[周杰伦-5]",
+  "time" : {
+    "start" : 1635425961760,
+    "stop" : 1635425982232,
+    "duration" : 20472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
